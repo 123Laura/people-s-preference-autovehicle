@@ -5,6 +5,7 @@ glm(formula = paratransit ~ mind + health + knowav + disability +
     avatt + age + education + techinterest + income + trust + 
     safety, family = binomial, data = paratransit)
 
+
 Deviance Residuals: 
     Min       1Q   Median       3Q      Max  
 -1.5687  -0.6248  -0.4490  -0.2897   2.5100  
@@ -29,6 +30,7 @@ income        0.165852   0.318738   0.520  0.60283
 trust         0.098446   0.048152   2.044  0.04091 * 
 safety       -0.139258   0.087911  -1.584  0.11318   
 ---
+
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 (Dispersion parameter for binomial family taken to be 1)
